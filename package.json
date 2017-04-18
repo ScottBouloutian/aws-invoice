@@ -14,7 +14,7 @@
     "url": "git+https://github.com/ScottBouloutian/aws-invoice.git"
   },
   "author": "Scott Bouloutian",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ScottBouloutian/aws-invoice/issues"
   },
