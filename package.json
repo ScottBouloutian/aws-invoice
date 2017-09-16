@@ -7,7 +7,8 @@
     "node": "6.10.0"
   },
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,14 +26,19 @@
     "csv-parse": "^1.2.0",
     "html-pdf": "^2.1.0",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "mustache": "^2.3.0",
     "nodemailer": "^4.1.0",
     "s3": "^4.4.0"
   },
   "devDependencies": {
+    "del": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.2",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2"
+    "eslint-plugin-node": "^4.2.2",
+    "gulp": "^3.9.1",
+    "gulp-yarn": "^1.0.0",
+    "gulp-zip": "^4.0.0"
   }
 }
