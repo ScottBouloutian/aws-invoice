@@ -16,6 +16,7 @@ gulp.task('yarn', ['clean'], () => {
     const srcFiles = [
         'index.js',
         '*lib/**/*',
+        '*bin/*',
     ];
     return gulp.src(yarnFiles.concat(srcFiles))
         .pipe(gulp.dest('build'))

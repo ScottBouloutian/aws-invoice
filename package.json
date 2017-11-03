@@ -24,12 +24,12 @@
     "aws-sdk": "^2.113.0",
     "bluebird": "^3.5.0",
     "csv-parse": "^1.2.0",
-    "html-pdf": "^2.1.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "mustache": "^2.3.0",
     "nodemailer": "^4.1.0",
-    "s3": "^4.4.0"
+    "s3": "^4.4.0",
+    "wkhtmltopdf": "^0.3.4"
   },
   "devDependencies": {
     "del": "^3.0.0",
