@@ -7,6 +7,8 @@ const s3 = new aws.S3({ region: 'us-east-1' });
 const getObject = Promise.promisify(s3.getObject, { context: s3 });
 const bucket = process.env.AWS_INVOICE_BUCKET;
 
+process.env.PATH = `${process.env.PATH}:${process.env.LAMBDA_TASK_ROOT}/bin`;
+
 // Download the configuration from s3
 function downloadConfig() {
     return getObject({
