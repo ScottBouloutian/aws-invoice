@@ -1,0 +1,9 @@
+service: aws-invoice
+provider:
+  name: aws
+  runtime: nodejs8.10
+functions:
+  aws-invoice:
+    handler: index.handler
+    events:
+        - schedule: cron(0 8 1 * ? *)
